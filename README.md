@@ -22,7 +22,7 @@
 
 ## 🖼️ Screenshots
 
-*(Add your own screenshots here once deployed)*
+![Movie Match Screenshot](screenshot.png)
 
 ## 📦 Setup & Installation
 
