@@ -1,0 +1,122 @@
+.container {
+  background-image: none;
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.back:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid black;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.bandd,
+.bpandkd {
+  width: 70vw;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.born,
+.pb {
+  font-size: 20px;
+}
+.died,
+.kd {
+  float: right;
+  font-size: 20px;
+  padding-right: 30px;
+}
+.alsocon h3 {
+  font-size: 20px;
+  margin: 10px 0px 5px;
+  text-transform: uppercase;
+}
+.alsok {
+  width: 70vw;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: none;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+.akaitem {
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin: 4px;
+  width: auto;
+  /* max-width: fit-content; */
+  height: 50px;
+  display: block;
+  justify-content: center; /* Horizontal */
+  align-items: center;
+  align-content: center;
+}
+.akaitem:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.biography {
+  font-size: 17px;
+  padding: 15px 15px 15px 0px;
+  text-align: justify;
+}
+.biography > h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.biography > p {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 30px;
+  line-height: 1.3;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 7px;
+}
+.mcredits {
+  width: 70vw;
+  height: 200px;
+  display: block;
+  height: 200px;
+  overflow: hidden;
+}
+.mcredits h3 {
+  font-size: 20px;
+  margin: 10px 0px 15px 0px;
+  text-transform: uppercase;
+}
+.mclist {
+  display: flex;
+  overflow-x: auto;
+  width: 70vw;
+  height: 100%;
+  scrollbar-width: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+.mcitem {
+  display: block;
+  flex: 0 0 auto;
+  width: 80px;
+}
+.pchar {
+  font-size: 13px;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/* .biography > p:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
