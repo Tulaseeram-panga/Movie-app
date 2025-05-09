@@ -28,10 +28,11 @@
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Tulaseeram-panga/Movie-app.git
-   cd Movie-app
-   ```
+```bash
+git clone https://github.com/Tulaseeram-panga/Movie-app.git
+cd Movie-app
+```
+
 2. Navigate to the project directory:
 
 ```bash
@@ -52,6 +53,7 @@ npm run dev
 
 
 The app will open in your browser at http://localhost:5173.
+
 
 ## 🔑 API Setup
 
