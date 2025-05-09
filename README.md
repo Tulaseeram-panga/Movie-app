@@ -30,7 +30,6 @@
 
 ```bash
 git clone https://github.com/Tulaseeram-panga/Movie-app.git
-cd Movie-app
 ```
 
 2. Navigate to the project directory:
